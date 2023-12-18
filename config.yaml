@@ -15,25 +15,135 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: t1 # unique identifier
-    name: t-dsi.pages.dev
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://t-dsi.pages.dev' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+ 
+  - id: S1
+    name: Gogle Cloud Platform
+    url: 'https://sayang.yeye.my.id/'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    
+  - id: S2
+    name: Zhejiang
+    url: 'https://sayang2.yeye.my.id/'
+    method: GET
+    expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: S3
+    name: Akamai
+    url: 'https://sayang3.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+    
+  - id: S4
+    name: Alibaba
+    url: 'https://sayang4.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S5
+    name: Amazon
+    url: 'https://sayang5.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+    
+  - id: S6
+    name: Digital Ocean
+    url: 'https://sayang6.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S7
+    name: Akari Networks
+    url: 'https://sayang7.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S8
+    name: OVH
+    url: 'https://sayang8.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S9
+    name: Hosthatch
+    url: 'https://sayang9.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S10
+    name: Zhejiang Taobao Network
+    url: 'https://sayang10.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S11
+    name: Viettel
+    url: 'https://sayang11.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S12
+    name: Akile
+    url: 'https://sayang12.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S13
+    name: zenlayer
+    url: 'https://sayang13.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S14
+    name: Oracle
+    url: 'https://sayang14.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S15
+    name: G-Core Labs
+    url: 'https://sayang15.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S16
+    name: Nexeon
+    url: 'https://sayang16.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S17
+    name: Web Horizon
+    url: 'https://sayang17.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S18
+    name: Kaopu Cloud
+    url: 'https://sayang18.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S19
+    name: Aofei
+    url: 'https://sayang19.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S20
+    name: Belnet First Server
+    url: 'https://sayang20.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S21
+    name: GCP
+    url: 'https://sayang21.yeye.my.id/'
+    method: GET
+    expectStatus: 200
+
+  - id: S22
+    name: Tencent Cloud Computing
+    url: 'https://sayang22.yeye.my.id/'
     method: GET
     expectStatus: 200
